@@ -1,0 +1,142 @@
+
+.auth-container {
+  display: flex;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+/* Left Panel */
+.forgot-panel {
+  width: 500px;
+  background: #fbf8f8fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 9rem;
+  height: 900px;
+}
+
+.forgot-card {
+  width: 100%;
+  max-width: 368px;
+  height: 60%;
+  text-align: center;
+  background: #fffdfd;
+  padding: 20px;
+  gap: 10;
+}
+
+.icon-circle {
+  font-size: 32px;
+  background: #eaeaea;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.send-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #4f6df5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signup-redirect {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+/* Right Panel */
+.preview-panel {
+  width: 50%;
+  background: linear-gradient(to bottom right, #0a1223, #060f31);
+  color: white;
+  position: relative;
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.floating-code {
+  background: white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  margin-left: -89%;
+}
+
+.login-forgot-card {
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 12px;
+  width: 360px;
+  height: 300px;
+  margin-top: 30px;
+  margin-left:-5rem;
+  margin-bottom: 23%;
+}
+
+.login-forgot-card input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 34px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.otp-box input {
+  width: 100%;
+  padding: 10px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background: #4f6df5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+/* Profile card */
+.profile-card {
+  background: rgb(242, 238, 238);
+  color: black;
+  padding: 12px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  margin-top: -78%;
+}
+
+.profile-card img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
